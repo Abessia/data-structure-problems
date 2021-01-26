@@ -1,0 +1,53 @@
+<mxfile host="65bd71144e" modified="2021-01-26T18:30:31.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="Kacgf5rBenYm12rFO8Cm" version="13.10.0" type="embed">
+    <diagram id="w7LKgcE8KGQvd3UxuWBs" name="Page-1">
+        <mxGraphModel dx="597" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;ul&gt;&lt;li&gt;Output: Boolean (isPermutation)&lt;/li&gt;&lt;li&gt;Input: Two Strings&lt;/li&gt;&lt;li&gt;Constraints: Should I worry about capitalization?&lt;/li&gt;&lt;li&gt;Examples / Edges:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Empty Strings?&amp;nbsp; Non-String Inputs?&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="40" width="320" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="STRING ONE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="STRING TWO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="PSEUDO-CODE: O(n) time complexity, O(n) space complexity&lt;br&gt;&lt;br&gt;// Declare StringOneObj and StringTwoObj&lt;br&gt;// Force both strings to lowercase&lt;br&gt;// Iterate StringOne&lt;br&gt;&amp;nbsp; &amp;nbsp;// add each character to the object if it isn't there (e.g. in the object)&lt;br&gt;&amp;nbsp; &amp;nbsp;// increment value by one if character is already there&lt;br&gt;// Iterate StringTWo&lt;br&gt;&amp;nbsp; // add each character to the object if it isn't there&lt;br&gt;&amp;nbsp; // increment value by one if character is already there&amp;nbsp;&lt;br&gt;// Test strict equality betwee two objects&lt;br&gt;&amp;nbsp; &amp;nbsp; // Return true if true&lt;br&gt;&amp;nbsp; &amp;nbsp; // Return false if false" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="230" width="380" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="14" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Iterate, creating an object with char keys and count vals" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.013;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="15" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Iterate, creating an object with char keys and count vals" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="16" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Test Strict Equality" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="440" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Return &lt;br&gt;True / &lt;br&gt;False" style="triangle;whiteSpace=wrap;html=1;align=left;rotation=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="540" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
